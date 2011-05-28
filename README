@@ -1,0 +1,70 @@
+== Description of Contents
+
+  |-- generator
+  |   |-- bin
+  |   |-- doc
+  |   |-- examples
+  |   |-- lib
+  |   |   `-- sph
+  |   `-- tests
+  `-- solver
+      `-- src
+          |-- geom
+          |-- gl
+          |-- gui
+          |-- pthreads
+          |-- random
+          |-- sph
+          `-- visualization
+
+solver
+  Holds the C++ SPH solver code and application libraries.
+
+solver/src
+  Holds the C++ source files of project.
+
+solver/src/geom
+  Holds geometric primitives and structures classes, 
+  such as vectors, bounding boxes, spatial indexes etc.
+
+solver/src/gl
+  Holds some useful C++ wrappers on OpenGL graphics library.
+
+solver/src/gui
+  Holds the GTK user interface classes.
+
+solver/src/pthreads
+  Holds some newbie C++ wrapper over pthreads library.
+
+solver/src/random
+  Holds helpers for generation of random numbers.
+
+solver/src/sph
+  Holds the C++ SPH solver code.
+
+solver/src/visualization
+  Holds visualization system of particles implementation.
+
+
+generator
+  Holds Ruby generator of SPH solvers.
+
+generator/bin
+  Holds the generator executable files.
+
+generator/doc
+  Holds documentation for generator.
+
+generator/examples
+  Holds some examples of generator usage, 
+  such as interstellar gas continua description.
+
+generator/lib
+  Holds all Ruby sources.
+
+generator/lib/sph
+  Holds classes in SPH namespace, that are used for describe problem.
+
+generator/tests
+  Holds some tests for SPH generator.
+

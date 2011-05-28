@@ -1,0 +1,6 @@
+*~
+*.log
+*.o
+*.d
+solver/bin/*
+solver/obj/*
